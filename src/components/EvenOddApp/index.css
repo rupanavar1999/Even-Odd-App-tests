@@ -1,0 +1,57 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.bg-Container {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 40vh;
+  width: 45vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: roboto;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.Counter {
+  font-family: roboto;
+}
+
+.OddEven {
+  font-family: roboto;
+  font-size: 22px;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.incrementbtn {
+  height: 35px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.para {
+  font-family: rodoto;
+  font-size: 12px;
+}
